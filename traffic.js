@@ -4,8 +4,8 @@ import { checkTz } from "./tz_px.js";
 
 const url = "https://lumeo.click/";
 // Threads range
-const min = 5; // Minimum threads for task execution.
-const max = 10; // Maximum threads for task execution.
+const min = 6; // Minimum threads for task execution.
+const max = 11; // Maximum threads for task execution.
 let bots;
 let views = 0;
 function generateRandomNumber(min, max) {
@@ -164,15 +164,8 @@ const preferences = [
 // Sources
 const referers = [
   "https://www.google.com",
-  "https://www.discord.com",
-  "https://twitter.com",
-  "https://www.reddit.com",
-  "https://www.linkedin.com",
-  "https://news.ycombinator.com",
-  "https://www.github.com",
   "https://www.bing.com",
-  "https://www.youtube.com",
-  "https://www.facebook.com",
+
 ];
 
 export const generateNoise = () => {
