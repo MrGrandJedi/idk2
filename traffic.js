@@ -29,7 +29,6 @@ const locations = [
   "cm", // Cameroon
   "cm", // Cameroon
   "cm", // Cameroon
-  "cm", // Cameroon
   "ci", // Cote D'Ivoire
   "ci", // Cote D'Ivoire
   "ci", // Cote D'Ivoire
